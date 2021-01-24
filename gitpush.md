@@ -7,7 +7,7 @@
 
 Чтобы добавить новый удаленный репозиторий Git, выполните `git remote add <shortname> <url>`:
 >
-> `$ git remote add sv git push https://github.com/savchuckvadim/skillfactory-git.git`
+> `$ git remote add https://github.com/savchuckvadim/skillfactory-git.git`
 >
 Теперь вы можете использовать строку `sv` в командной строке вместо всего URL-адреса.
 
@@ -17,3 +17,7 @@
 >$ git push -u orgin master
 >
 где master - означает название текущей ветки git.
+
+[Игнорируемые файлы](gitignore.md)
+
+[Получение файлов с удаленного репозитория](gitpull.md)
